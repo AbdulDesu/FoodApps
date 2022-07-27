@@ -4,7 +4,6 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.abdulrichard.foodapps.data.model.home.FoodModel
 import com.abdulrichard.foodapps.databinding.ActivityHomeBinding
 import com.abdulrichard.foodapps.network.ApiClient
 import com.abdulrichard.foodapps.network.ApiService
@@ -23,7 +22,6 @@ class HomeActivity : BaseActivity() {
     private lateinit var adapter: HomeAdapter
     private lateinit var layoutManager: GridLayoutManager
 
-    private var foodList = mutableListOf<FoodModel>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

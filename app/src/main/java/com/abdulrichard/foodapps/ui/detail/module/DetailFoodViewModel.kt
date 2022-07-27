@@ -3,7 +3,9 @@ package com.abdulrichard.foodapps.ui.detail.module
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.abdulrichard.foodapps.data.model.detail.FoodDetailModel
+import com.abdulrichard.foodapps.data.model.home.FoodModel
 import com.abdulrichard.foodapps.data.response.detail.FoodDetailResponse
+import com.abdulrichard.foodapps.data.response.home.HomeResponse
 import com.abdulrichard.foodapps.network.ApiService
 import kotlinx.coroutines.*
 import retrofit2.HttpException
@@ -20,7 +22,7 @@ class DetailFoodViewModel: ViewModel(), CoroutineScope {
     override val coroutineContext: CoroutineContext
     get() = Job() + Dispatchers.Main
 
-    fun setHomeService(service: ApiService) {
+    fun setDetailFoodService(service: ApiService) {
         this.apiService = service
     }
 
@@ -66,4 +68,6 @@ class DetailFoodViewModel: ViewModel(), CoroutineScope {
             }
         }
     }
+
+
 }

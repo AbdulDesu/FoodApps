@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.abdulrichard.foodapps.R
 import com.abdulrichard.foodapps.data.model.home.FoodModel
 import com.abdulrichard.foodapps.databinding.ItemFoodListBinding
-import com.abdulrichard.foodapps.ui.detail.DetailFoodActivity
+import com.abdulrichard.foodapps.ui.detail.activity.DetailFoodActivity
 import com.squareup.picasso.Picasso
 
 class HomeAdapter (private val context: Context): RecyclerView.Adapter<HomeAdapter.FoodListViewHolder>() {

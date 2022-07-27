@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodApps">
         <activity
-            android:name=".ui.detail.DetailFoodActivity"
+            android:name=".ui.detail.activity.DetailFoodActivity"
             android:exported="false" />
         <activity
             android:name=".ui.home.activity.HomeActivity"

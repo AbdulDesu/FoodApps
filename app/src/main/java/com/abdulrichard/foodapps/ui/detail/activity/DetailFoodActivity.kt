@@ -1,4 +1,4 @@
-package com.abdulrichard.foodapps.ui.detail
+package com.abdulrichard.foodapps.ui.detail.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
